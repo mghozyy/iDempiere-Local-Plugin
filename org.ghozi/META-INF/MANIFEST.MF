@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ghozi-Plugin
+Bundle-SymbolicName: org.ghozi;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="6.2.0"
+Service-Component: OSGI-INF/MyCalloutFactory.xml
+Automatic-Module-Name: org.ghozi
+Bundle-ActivationPolicy: lazy
